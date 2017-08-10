@@ -15,6 +15,8 @@ namespace Vidly
 
 
             //Most Specific to most generic
+            //This is an option- to use MVC Attribute routes.
+            //routes.MapMvcAttributeRoutes();
             routes.MapRoute(
                 "MoviesByReleaseDate",
                 "movies/released/{year}/{month}",
